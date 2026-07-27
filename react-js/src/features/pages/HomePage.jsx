@@ -1,5 +1,6 @@
 import { details } from "../data/Data"
 import { useNavigate } from "react-router-dom"
+import '../styles/homepage.css'
 
 
 
@@ -12,12 +13,12 @@ const HomePage = () => {
     <div className="home-container">
         <div className="container">
             <h1>Welcome!</h1>
-            
-            <p> Hii, I am {user.name} </p>
             <div className="flex">
+            <p> Hii, I am {user.name} </p>
             <p>{user.shortBio}</p>
-            <img src="" alt="img1" />
             </div>
+            <img src="" alt="img1" />
+            
 
             <button className="button" onClick={ () => navigate("/About")}> Know More </button>
         </div>
