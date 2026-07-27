@@ -2,6 +2,7 @@ import { details } from "../data/Data"
 
 
 const HomePage = () => {
+  const user = details[0]
   return (
     <div className="home-container">
         <div className="container">
