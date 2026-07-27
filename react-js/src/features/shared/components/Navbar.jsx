@@ -1,10 +1,11 @@
 import { NavLink } from "react-router-dom"
+import "../styles/Navbar.css"
 
 const Navbar = () => {
   return (
     <div className="navbar-container">
 
-      <h1>Chandan Kumar Nayak</h1>
+      <h2>Chandan Kumar Nayak</h2>
 
       <nav>
         <NavLink to="/" end >
