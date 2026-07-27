@@ -16,8 +16,8 @@
 .navbar-container h2 {
   margin: 0;
   font-size: 22px;
-  color: #111827;
-  white-space: nowrap;
+  color: black;
+  
 }
 
 .navbar-container nav {
@@ -28,10 +28,10 @@
 
 .navbar-container nav a {
   text-decoration: none;
-  color: #6b7280;
+  color: gray;
   font-size: 16px;
   font-weight: 500;
-  transition: all 0.3s ease;
+
 }
 
 .navbar-container nav a:hover {
