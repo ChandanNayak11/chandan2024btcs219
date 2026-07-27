@@ -1,10 +1,10 @@
-import {BrowesrRouter,Routes,Route} from 'react-router-dom'
+import {BrowserRouter,Routes,Route} from 'react-router-dom'
 import HomePage from './features/pages/HomePage'
 import About from './features/pages/About'
-import Contact from './features/pages/contact'
+import Contact from './features/pages/Contact'
 const App = () => {
   return (
-    <BrowesrRouter>
+    <BrowserRouter>
     <Routes>
         <Route path='/' element={<HomePage />} />
 
@@ -13,7 +13,7 @@ const App = () => {
         <Route path='/Contact' element={<Contact />} />
 
     </Routes>
-    </BrowesrRouter>
+    </BrowserRouter>
   )
 }
 
